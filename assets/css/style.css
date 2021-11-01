@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body,
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -37,7 +29,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
-  margin: 0 auto;
+  margin: 0 auto 25px;
   max-width: 800px;
   padding: 30px 40px;
 }
