@@ -32,7 +32,7 @@ header {
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto 25px;
-  max-width: 800px;
+  max-width: 600px;
   padding: 30px 40px;
 }
 
@@ -258,8 +258,44 @@ input[type=range]:focus::-ms-fill-upper {
   }
 }
 
+@media (max-width: 565px) {
+  .card {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .len-chboxtext {
+    width: 100%;
+  }
+  
+  .len-chbox {
+    width: 100%;
+  }
+
+  .chboxtext {
+    width: 40%;
+    max-width: 80px;
+  }
+
+  .chbox {
+    width: 60%;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 325px) {
+  .chboxtext {
+    width: 100%;
+  }
+
+  .chbox {
+    width: 100%;
   }
 }

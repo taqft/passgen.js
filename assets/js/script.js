@@ -1,7 +1,7 @@
 // Assignment Code - Do Not Change
 const generateBtn = document.querySelector("#generate");
 
-// Init checkboxes
+// Init checkboxes with checked = true
 document.getElementById("Lowercase").checked = true;
 document.getElementById("Uppercase").checked = true;
 document.getElementById("Numbers").checked = true;
