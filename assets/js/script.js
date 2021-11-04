@@ -48,6 +48,11 @@ const specialInput = document.getElementById("Special");
 
 // Pseudo-random password generation
 function generatePassword() {
+  let pwText = document.getElementById("password");
+  console.log(pwText);
+  pwText.setAttribute('placeholder', '');
+  await sleep(2000);
+  console.log(pwText);
   return Math.random();
 }
 
