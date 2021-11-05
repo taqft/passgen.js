@@ -106,8 +106,7 @@ header {
   border: none;
   background-color: #AF0808;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -116,6 +115,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+#copy {
+  margin: 0px 20px 0px 20px;
 }
 
 button[disabled] {
@@ -146,6 +149,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  word-break: break-all;
 }
 
 input[type=range] {
@@ -249,12 +253,12 @@ input[type=range]:focus::-ms-fill-upper {
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
-    margin: 16px 0px 0px 0px;
+    margin: 16px 0px 8px 0px;
     padding: 10px 15px;
   }
 
   #password {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 

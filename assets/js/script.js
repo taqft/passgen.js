@@ -1,5 +1,6 @@
 // Assignment Code - Do Not Change
 const generateBtn = document.querySelector("#generate");
+const copyBtn = document.querySelector("#copy");
 
 // Define UTF codes for allowed characters.
 const lowerChars = [97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122];
@@ -68,19 +69,16 @@ function generatePassword() {
   };
 
   // Check if uppercase is allowed, if so: include those characters
-  console.log(possibleChars);
   if (upperInput.checked) {
     possibleChars = possibleChars.concat(upperChars)
   };
 
   // Check if numbers are allowed, if so: include those characters
-  console.log(possibleChars);
   if (numInput.checked) {
     possibleChars = possibleChars.concat(numChars)
   };
 
   // Check if special chars are allowed, if so: include those characters
-  console.log(possibleChars);
   if (specialInput.checked) {
     possibleChars = possibleChars.concat(specialChars)
   };
@@ -91,7 +89,6 @@ function generatePassword() {
   // of possible characters. Then, use that value as the
   // selected index for the array containing all possible
   // allowed characters, and add that char to the textarea.
-  console.log(possibleChars);
   for (let i = 0; i < pwLength; i++) {
     nextChar = Math.floor(Math.random() * (possibleChars.length - 1));
     newChar = String.fromCharCode(possibleChars[nextChar]);
@@ -101,6 +98,9 @@ function generatePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// Add event listener to copy password button
+copyBtn.addEventListener("click", copyPassword);
 
 // Write password to the page
 // Write password to the #password textarea
@@ -112,4 +112,13 @@ function writePassword() {
     alert("Please select an option.")
   return false;
 
+}
+
+function copyPassword() {
+  var copyText = document.querySelector("#password");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 128);
+
+  navigator.clipboard.writeText(copyText.innerHTML);
 }
