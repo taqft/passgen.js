@@ -19,38 +19,38 @@
         <h2>Choose Your Options</h2>
       </div>
       <div class="card-body">
-      <div class="options">
+        <div class="options">
 
-      <div class="options-row">
-      <div class="len-chboxtext">Password Length:</div>
-      <div class="len-chbox"><input type="range" min="8" max="128" value="16" class="slider" id="chooseLength"><div class="input-container"><input value="16" id="numLength"></div></div>
+          <div class="options-row">
+            <div class="len-chboxtext">Password Length:</div>
+            <div class="len-chbox"><input type="range" min="8" max="128" value="16" class="slider" id="chooseLength">
+              <div class="input-container"><input value="16" id="numLength"></div>
+            </div>
+          </div>
+
+          <div class="options-row">
+            <div class="chboxtext">Lowercase:</div>
+            <div class="chbox"><input name="Lowercase" type="checkbox" id="Lowercase"><label> ( ex: abc )</label></div>
+          </div>
+
+          <div class="options-row">
+            <div class="chboxtext">Uppercase:</div>
+            <div class="chbox"><input name="Uppercase" type="checkbox" id="Uppercase"><label> ( ex: ABC )</label></div>
+          </div>
+
+          <div class="options-row">
+            <div class="chboxtext">Numbers:</div>
+            <div class="chbox"><input name="Numbers" type="checkbox" id="Numbers"><label> ( ex: 1234 )</label></div>
+          </div>
+
+          <div class="options-row">
+            <div class="chboxtext">Symbols:</div>
+            <div class="chbox"><input name="Special" type="checkbox" id="Special"><label> ( ex: !"#$%&' )</label></div>
+          </div>
+
+        </div>
       </div>
-
-      <div class="options-row">
-      <div class="chboxtext">Lowercase:</div>
-      <div class="chbox"><input name="Lowercase" type="checkbox" id="Lowercase"><label> ( ex: abc )</label></div>
-      </div>
-
-      <div class="options-row">
-      <div class="chboxtext">Uppercase:</div>
-      <div class="chbox"><input name="Uppercase" type="checkbox" id="Uppercase"><label> ( ex: ABC )</label></div>
-      </div>
-
-      <div class="options-row">
-      <div class="chboxtext">Numbers:</div>
-      <div class="chbox"><input name="Numbers" type="checkbox" id="Numbers"><label> ( ex: 1234 )</label></div>
-      </div>
-
-      <div class="options-row">
-      <div class="chboxtext">Symbols:</div>
-      <div class="chbox"><input name="Special" type="checkbox" id="Special"><label> ( ex: !"#$%&' )</label></div>
-      </div>
-
     </div>
-  </div>
-      </div>
-    </div>
-  </div>
     <div class="card">
       <div class="card-header">
         <h2>Generate a Password</h2>
@@ -60,6 +60,7 @@
       </div>
       <div class="card-footer">
         <button id="generate" class="btn">Generate Password</button>
+        <button id="copy" class="btn">Copy Password</button>
       </div>
     </div>
   </div>
