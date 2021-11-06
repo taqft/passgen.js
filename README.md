@@ -84,7 +84,7 @@ View the commit history to see the changes made across time.
 [issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/passgen.js.svg?style=for-the-badge
 [issues-url]: https://github.com/theresaqueryforthat/passgen.js/issues
 [license-shield]: https://img.shields.io/github/license/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[license-url]: https://github.com/theresaqueryforthat/passgen.js/blob/master/LICENSE.txt
+[license-url]: https://github.com/theresaqueryforthat/passgen.js/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bk09/
 [linkedin-url-tim]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
