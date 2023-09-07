@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/passgen.js">
+  <a href="https://github.com/taqft/passgen.js">
     <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,11 +38,11 @@
   <p align="center">
     Made with JavaScript, HTML, and CSS.
     <br />
-    <a href="https://theresaqueryforthat.github.io/passgen.js/">View Demo</a>
+    <a href="https://taqft.github.io/passgen.js/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/passgen.js/issues">Report Bug</a>
+    <a href="https://github.com/taqft/passgen.js/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/passgen.js/issues">Request Feature</a>
+    <a href="https://github.com/taqft/passgen.js/issues">Request Feature</a>
   </p>
 </div>
 
@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://theresaqueryforthat.github.io/passgen.js/)
+[![Product Name Screen Shot][product-screenshot]](https://taqft.github.io/passgen.js/)
 
 You must select at least one of the following parameters to be able to successfully generate a password:
 
@@ -75,16 +75,16 @@ View the commit history to see the changes made across time.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/passgen.js/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/passgen.js/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/passgen.js/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/passgen.js/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/passgen.js.svg?style=for-the-badge
-[license-url]: https://github.com/theresaqueryforthat/passgen.js/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/passgen.js.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/passgen.js/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/passgen.js.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/passgen.js/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/passgen.js.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/passgen.js/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/passgen.js.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/passgen.js/issues
+[license-shield]: https://img.shields.io/github/license/taqft/passgen.js.svg?style=for-the-badge
+[license-url]: https://github.com/taqft/passgen.js/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bk09/
 [linkedin-url-tim]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
